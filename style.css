@@ -1,0 +1,113 @@
+body {
+    color: white;
+    text-align: center;
+    background-image: url("fundo2.png");
+    ;
+    }
+    .topo {
+    background-color: gray;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    
+    }
+      .topo li {
+        color: gray;
+      }
+      .topo ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+      }
+  a:link {
+    color: white;
+    text-decoration: none;
+  }
+    a:visited {
+      color: rgb(192, 189, 189)
+    }
+    a:hover {
+      color: rgb(110, 101, 101)
+    }
+    a:active{
+      font-weight: bold;
+    }
+  .menu {
+    background-color: rgb(65, 122, 145);
+    font-size: 50px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    
+  }
+    .menu li {
+      color: rgb(160, 184, 207);
+    }
+    .menu ul{
+      display: flex;
+      flex-direction: row;
+      justify-content:center;
+      text-decoration: none;
+    }  
+    .peao img{
+    height: 70px
+    }
+  .semana{
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    justify-content:space-around;
+  }
+  .semana img{
+    width: 300px;
+  }
+  .semana h1{
+    font-size: 38px;
+    color: rgb(65, 122, 145);
+    text-align: left;
+  }
+  .semana h2{
+    color:rgb(54, 98, 116);
+    text-align: left;
+  }
+.eu {
+  font-size: 150%;
+  color:rgb(65, 122, 145);
+  padding-left: 10%;
+  padding-right: 5%;
+  padding-top: 4%;
+  text-align: justify;
+}
+h1 {
+  font-size: 300%;
+  color:rgb(53, 98, 116);
+  padding-top: 7%;
+  text-align: left;
+  padding-left: 10%;
+
+}
+.autobiografia {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.imagemautobiografia {
+  width: 100%;
+}
+
+.contato img{
+  width: 70px;
+  align-self: flex-end;
+}
+
+.contato {
+  margin-top: 0px;
+}
+
+.direita {
+  display: flex;
+  flex-direction: column;
+  width: 150%;
+  padding-top: 15px;
+}
