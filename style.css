@@ -1,8 +1,8 @@
 body {
     color: white;
     text-align: center;
-    background-image: url("fundo2.png");
-    ;
+    background-color: aliceblue;
+
     }
     .topo {
     background-color: gray;
@@ -71,43 +71,33 @@ body {
     text-align: left;
   }
 .eu {
-  font-size: 150%;
+  font-size: 130%;
   color:rgb(65, 122, 145);
   padding-left: 10%;
   padding-right: 5%;
   padding-top: 4%;
   text-align: justify;
 }
+
 h1 {
   font-size: 300%;
   color:rgb(53, 98, 116);
   padding-top: 7%;
   text-align: left;
   padding-left: 10%;
-
-}
-.autobiografia {
-  display: flex;
-  flex-direction: row;
-
 }
 
-.imagemautobiografia {
-  width: 100%;
+h2 {
+  font-size: 200%;
+  color:rgb(53, 98, 116);
+  padding-top: 3.5%;
+  text-align: left;
 }
 
-.contato img{
-  width: 70px;
-  align-self: flex-end;
+hr{
+  width: 80%;
+  color: rgb(110, 101, 101);
+  margin-top: 7%;
+  margin-bottom: 5%;
 }
 
-.contato {
-  margin-top: 0px;
-}
-
-.direita {
-  display: flex;
-  flex-direction: column;
-  width: 150%;
-  padding-top: 15px;
-}
