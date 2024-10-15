@@ -1,9 +1,35 @@
 .topicos{
-    padding-top: 7%;
+    padding-top: 2%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    align-content: flex-start;
+    padding-left: 10%;
+    text-decoration: none;
+    color: aliceblue;
 }
-.topicos input{
-    color: brown;
+
+.topicos div {
+    text-align: left;
+    color: rgb(65, 122, 145);
+    font-size: 100%;
 }
+
+.semana{
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    justify-content:space-around;
+  }
+  .semana img{
+    width: 300px;
+  }
+  .semana h1{
+    font-size: 38px;
+    color: rgb(65, 122, 145);
+    text-align: left;
+  }
+  .semana h2{
+    color:rgb(54, 98, 116);
+    text-align: left;
+  }
