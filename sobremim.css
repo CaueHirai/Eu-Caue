@@ -3,7 +3,14 @@
     flex-direction: row;
   
   }
-  
+.autobiografia p{
+  font-size: 160%;
+  color:rgb(65, 122, 145);
+  padding-left: 10%;
+  padding-right: 5%;
+  padding-top: 4%;
+  text-align: justify;
+}
   .imagemautobiografia {
     width: 100%;
   }

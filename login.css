@@ -1,0 +1,54 @@
+body{
+    background-image: url("computador.jpg");
+    background-repeat: no-repeat;
+}
+h1{
+    padding-left: 1100px;
+    padding-right: 200px;
+    font-size: 400%;
+    color:rgb(53, 98, 116);
+    padding-top: 3%;
+    text-align: left;
+}
+h2{
+    padding-left: 1100px;
+    font-size: 200%;
+    color:rgb(53, 98, 116);
+    padding-top: 3%;
+    text-align: left;
+}
+a{
+    padding-left: 1100px;
+    font-size: 20px;
+    color:rgb(65, 119, 141);
+    padding-top: 0;
+    text-align: left;
+    margin-top: 0;
+    text-decoration: none;
+}
+p{
+    font-size: 20px;
+    color:rgb(65, 122, 145);
+    padding-left: 1100px;
+    padding-right: 5%;
+    text-align: left;
+    margin-bottom: 10px;
+}
+input{
+    font-size: 15px;
+    color:rgb(65, 122, 145);
+    margin-left: 1100px;
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 300px;
+}
+.botao{
+    font-size: 17px;
+    color:rgb(65, 122, 145);
+    margin-left: 1100px;
+    margin-top: 10px;
+    text-align: center;
+    width: 100px;
+    border: 2px rgb(65, 122, 145);
+}

@@ -70,14 +70,6 @@ body {
     color:rgb(54, 98, 116);
     text-align: left;
   }
-.eu {
-  font-size: 130%;
-  color:rgb(65, 122, 145);
-  padding-left: 10%;
-  padding-right: 5%;
-  padding-top: 4%;
-  text-align: justify;
-}
 
 h1 {
   font-size: 300%;
@@ -99,5 +91,15 @@ hr{
   color: rgb(110, 101, 101);
   margin-top: 7%;
   margin-bottom: 5%;
+}
+.conta{
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+}
+.conta a{
+  color: rgb(53, 98, 116);
+  font-weight: bold;
+  font-size: 20px;
 }
 
