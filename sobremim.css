@@ -1,3 +1,5 @@
+/* ------- Centro, texto e imagem ------- */
+
 .autobiografia {
     display: flex;
     flex-direction: row;
@@ -15,6 +17,8 @@
     width: 100%;
   }
   
+/* ------- Contato, redes sociais -------*/
+
   .contato div img{
     width: 100%;
     align-self: flex-end;
@@ -25,19 +29,21 @@
     align-self: flex-end;
     margin: 0;
     padding-right: 2%;
+
   }
   
   .contato {
     margin-top: 0px;
-    padding-left: 10%;
     margin-right: 10%;
     width: 40%;
+    padding-left: 7%;
   }
   
   .contato div{
     display: flex;
     flex-direction: row;
     width: 30%;
+    padding-left: 10%;
   }
   
   .direita {

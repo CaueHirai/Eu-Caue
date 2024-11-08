@@ -1,3 +1,4 @@
+/* ------- Topo do site, a parte de navegação e tals ------- */
 body {
     color: white;
     text-align: center;
@@ -49,6 +50,7 @@ body {
       justify-content:center;
       text-decoration: none;
     }  
+/* ------- Estilos para a partida da semana, para fazer depois ------- */
     .peao img{
     height: 70px
     }
@@ -71,12 +73,21 @@ body {
     text-align: left;
   }
 
+/* ------- Textos ------ */
+
+p {
+  font-size: 160%;
+  color:rgb(65, 122, 145);
+  text-align: justify;
+  padding-left: 10%;
+}
+
 h1 {
   font-size: 300%;
   color:rgb(53, 98, 116);
   padding-top: 7%;
   text-align: left;
-  padding-left: 10%;
+  margin-left: 10%;
 }
 
 h2 {
@@ -84,7 +95,17 @@ h2 {
   color:rgb(53, 98, 116);
   padding-top: 3.5%;
   text-align: left;
+  margin-left: 10%;
 }
+
+h3 {
+  font-size: 150%;
+  color:rgb(53, 98, 116);
+  padding-top: 3.5%;
+  text-align: left;
+  margin-left: 10%;
+}
+/* ------- Parte debaixo do código -------*/
 
 hr{
   width: 80%;

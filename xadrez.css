@@ -1,3 +1,4 @@
+/* ------- Topo, tópicos ------- */
 .topicos{
     padding-top: 2%;
     display: flex;
@@ -15,21 +16,36 @@
     font-size: 100%;
 }
 
-.semana{
-    display: flex;
-    flex-direction: column;
-    margin-left: 80px;
-    justify-content:space-around;
-  }
-  .semana img{
-    width: 300px;
-  }
-  .semana h1{
-    font-size: 38px;
-    color: rgb(65, 122, 145);
-    text-align: left;
-  }
-  .semana h2{
-    color:rgb(54, 98, 116);
-    text-align: left;
-  }
+/* ------- Tabuleiros ------- */
+.impar img{
+  width: 400px;
+  margin-right: 10%;
+  margin-left: 5%;
+}
+.par img{
+  width: 400px;
+  margin-left: 10%;
+}
+
+/* ------- Textos ------- */
+
+/*p, modificáveis em style.css*/
+
+.par p{
+  width: 400px;
+  margin-right: 10%;
+}
+
+/* ------- Organização de textos/tabuleiros ------- */
+
+.impar{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.par{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
