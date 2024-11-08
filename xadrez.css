@@ -18,34 +18,58 @@
 
 /* ------- Tabuleiros ------- */
 .impar img{
-  width: 400px;
-  margin-right: 10%;
-  margin-left: 5%;
+  width: 350px;
+  margin-left: 4%;
 }
 .par img{
-  width: 400px;
-  margin-left: 10%;
+  width: 350px;
+  margin-right: 4%;
 }
 
 /* ------- Textos ------- */
 
 /*p, modificáveis em style.css*/
 
-.par p{
-  width: 400px;
-  margin-right: 10%;
+.p-magro{
+  width: 350px;
+  margin: 0;
+  padding: 0;
 }
 
+h1{
+  margin-left: 0;
+  padding-left: 0;
+  text-align: center;
+}
+h2{
+  padding: 0;
+  margin: 0;
+  padding-top: 3.5%;
+  padding-bottom: 3.5%;
+  text-align: center;
+}
+
+hr{
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
 /* ------- Organização de textos/tabuleiros ------- */
 
 .impar{
+  margin-top: 5%;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
+  
 }
 .par{
+  margin-top: 5%;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
 }
 
